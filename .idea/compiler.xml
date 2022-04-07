@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment-8001" />
+        <module name="cloud-consumer-order-8002" />
       </profile>
     </annotationProcessing>
   </component>
