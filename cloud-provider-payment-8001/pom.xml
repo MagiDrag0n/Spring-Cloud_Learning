@@ -18,7 +18,7 @@
 
     <dependencies>
 
-        <!-- 引用自己定义的api通用包，可以使用Payment支付Entity -->
+        <!-- 引用自己定义的api通用包，其他工程可以使用Payment支付Entity -->
         <dependency>
             <groupId>com.magiverse.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
