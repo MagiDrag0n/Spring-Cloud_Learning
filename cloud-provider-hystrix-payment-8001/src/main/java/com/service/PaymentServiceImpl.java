@@ -3,10 +3,12 @@ package com.service;
 import cn.hutool.core.util.IdUtil;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.concurrent.TimeUnit;
 
+@Service
 public class PaymentServiceImpl implements PaymentService{
     public String getPaymentInfo_OK(Integer id) {
         return Thread.currentThread().getName()+"----OK----"+id;
