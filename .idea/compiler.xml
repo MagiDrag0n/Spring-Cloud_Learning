@@ -14,6 +14,7 @@
         <module name="cloud-api-commons" />
         <module name="cloud-consumer-feign-order-8101" />
         <module name="cloud-consumer-order-8101" />
+        <module name="cloud-consumer-feign-hystrix-order-8101" />
       </profile>
     </annotationProcessing>
   </component>
