@@ -19,7 +19,7 @@ public class orderHystrixController {
 
     @GetMapping("test")
     public String test() {
-        return "test";
+        return "return test";
     }
 
     @GetMapping("info/ok/{id}")
